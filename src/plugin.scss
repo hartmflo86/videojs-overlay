@@ -75,6 +75,21 @@
     transform: translateY(-50%);
   }
 
+  .vjs-overlay-full {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    bottom: unset !important;
+    height: 100% !important;
+    left: 50% !important;
+    margin: 0 !important;
+    max-height: 100vh !important;
+    max-width: calc(100vh*16/9) !important;
+    padding: 0 !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 100% !important;
+  }
+
   // Fallback for IE8 and IE9
   .vjs-no-flex .vjs-overlay-left,
   .vjs-no-flex .vjs-overlay-center,
